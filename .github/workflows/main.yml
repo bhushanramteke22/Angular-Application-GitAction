@@ -2,11 +2,11 @@ name: Build My Angular App
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
   Build-My-Angular-App:
-    runs-on: ubuntu latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4.2.2
